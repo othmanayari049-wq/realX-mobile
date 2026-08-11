@@ -184,8 +184,7 @@ const styles = StyleSheet.create({
     rowSegment: {
         flexDirection: 'row',
         gap: BRAND_TILE_GAP,
-        paddingLeft: BRAND_ROW_SIDE_PADDING - 4,
-        paddingRight: BRAND_ROW_SIDE_PADDING,
+        paddingHorizontal: BRAND_ROW_SIDE_PADDING,
     },
     rowSpacing: {
         marginTop: HOME_SECTION_HEADER_GAP,
